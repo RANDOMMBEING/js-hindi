@@ -45,10 +45,38 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));  //  [ '123abc', 'Sammy', false ]
-console.log(Object.entries(tinderUser));  //  [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser));  // [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser));  //  [ '123abc', 'Sammy', false ]
+// console.log(Object.entries(tinderUser));  //  [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+// object de=structure
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+//course.courseInstructor
+
+const {courseInstructor} = course // if you think course intructor is too long use courseInstructor: instructor(give any name you want)
+// console.log(instructor)
+console.log(courseInstructor)
+
+// {
+//     name: "daksh",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+[
+  {},
+  {},
+  {}
+]
