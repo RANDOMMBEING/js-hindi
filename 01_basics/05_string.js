@@ -24,7 +24,7 @@ console.log(anotherString);
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); // removes the starting and end spaces
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
